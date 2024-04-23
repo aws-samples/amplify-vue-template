@@ -38,7 +38,11 @@ function createTodo() {
     <h1>My todos</h1>
     <button @click="createTodo">+ new</button>
     <ul>
-      <li v-for="todo in todos" :key="todo.id">{{ todo.content }}</li>
+      <li 
+        v-for="todo in todos" 
+        :key="todo.id">
+        {{ todo.content }}
+      </li>
     </ul>
     <div>
       🥳 App successfully hosted. Try creating a new todo.
