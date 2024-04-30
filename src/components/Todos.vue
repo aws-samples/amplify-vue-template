@@ -7,7 +7,7 @@ import { generateClient } from 'aws-amplify/data';
 const client = generateClient<Schema>();
 
 // create a reactive reference to the array of todos
-const todos = ref<Schema['Todo'][]>([]);
+const todos = ref<Array<Schema['Todo']["type"]>>([]);
 
 function listTodos() {
   client.models.Todo.observeQuery().subscribe({
