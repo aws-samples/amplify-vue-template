@@ -11,12 +11,12 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
-    "aws-amplify": "^6.4.0",
+    "aws-amplify": "^6.6.6",
     "vue": "^3.4.21"
   },
   "devDependencies": {
-    "@aws-amplify/backend": "^1.0.4",
-    "@aws-amplify/backend-cli": "^1.1.1",
+    "@aws-amplify/backend": "^1.5.0",
+    "@aws-amplify/backend-cli": "^1.2.9",
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.12.5",
     "@vitejs/plugin-vue": "^5.0.4",
@@ -28,7 +28,7 @@
     "npm-run-all2": "^6.1.2",
     "tsx": "^4.7.2",
     "typescript": "^5.4.5",
-    "vite": "^5.2.8",
+    "vite": "^5.4.10",
     "vue-tsc": "^2.0.11"
   }
 }
